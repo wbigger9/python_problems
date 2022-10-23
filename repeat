@@ -1,0 +1,7 @@
+def panera_bread(a):
+    return a
+
+def repeat(a,b):
+    return a * b
+
+print(repeat(panera_bread(2),3))
