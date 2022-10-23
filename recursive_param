@@ -1,0 +1,10 @@
+listy = [6,9,69]
+def funk(a):
+    return sum(a)
+
+
+def recursive_param(a,b):
+  return a*b
+  
+print(recursive_param(funk(listy),4))
+   
