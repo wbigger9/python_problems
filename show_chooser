@@ -1,0 +1,20 @@
+from random import choice
+
+mood = input("what mood are you in? (funny, serious, scary):   ")
+
+def show_picker(a):
+
+    funny_shows = ['south park' , 'rick and morty' , 'futurama']
+    serious_shows = ['game of thrones' , 'the bachelor' , 'bojack horseman']
+    scary_shows = ['american horror story' , 'paranormal caught on tape' , 'monsterquest']
+
+    if a == "funny":
+        print(choice(funny_shows))
+    elif a == "serious":
+        print(choice(serious_shows))
+    elif a == "scary":
+        print(choice(scary_shows))
+    else:
+        print('invalid input')
+
+print (show_picker(mood))
